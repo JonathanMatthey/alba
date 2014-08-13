@@ -69,7 +69,7 @@ if(function_exists("register_field_group"))
 				'type' => 'number',
 				'instructions' => '<div class="acf-semplice-desc">
 	<h1>Custom Fontset</h1>
-	<p>In this section you can define your custom fontset.<br />Please read our <a href="http://help.semplicelabs.com/customer/portal/topics/673496-custom-fontset/articles" target="_blank">Documenation</a> on how to add a font from your favorite service</p>
+	<p>In this section you can define your custom fontset.<br />Please read  <a href="http://help.semplicelabs.com/customer/portal/topics/673496-custom-fontset/articles" target="_blank">Documenation</a> on how to add a font from your favorite service</p>
 	</div>',
 				'default_value' => '',
 				'placeholder' => '',
@@ -130,7 +130,7 @@ if(function_exists("register_field_group"))
 		font-family: MetaSerifWeb-Book;
 		src: url(MetaSerifWeb-Book.eot);
 	}
-	
+
 	/* then for Mozilla browsers -> Firefox */
 	@font-face {
 		font-family: MetaSerifWeb-Book;
@@ -1719,10 +1719,10 @@ if(function_exists("register_field_group"))
 			),
 			array (
 				'key' => 'field_52af5b4462eae',
-				'label' => 'Activate Semplice Options',
+				'label' => 'Activate Alba Options',
 				'name' => 'use_semplice',
 				'type' => 'select',
-				'instructions' => 'Select \'active\' to use the semplice features such as the custom header, custom fontset and the content editor.<br />Note: If you activate the features, the standard wordpress wysiwyg editor field gets ignored. You can add content via the \'Content\' tab.',
+				'instructions' => 'Select \'active\' to use the alba features such as the custom header, custom fontset and the content editor.<br />Note: If you activate the features, the standard wordpress wysiwyg editor field gets ignored. You can add content via the \'Content\' tab.',
 				'choices' => array (
 					'inactive' => 'Inactive',
 					'active' => 'Active',
@@ -2366,7 +2366,7 @@ if(function_exists("register_field_group"))
 	));
 	register_field_group(array (
 		'id' => 'acf_theme-options-about-semplice',
-		'title' => 'Theme Options - About Semplice',
+		'title' => 'Theme Options - About Alba',
 		'fields' => array (
 			array (
 				'key' => 'field_53a234070f6a2',
@@ -2375,7 +2375,7 @@ if(function_exists("register_field_group"))
 				'type' => 'number',
 				'instructions' => '<div class="acf-semplice-desc">
 	<h1>About Semplice</h1>
-	<p>Information about the Semplice Theme</p>
+	<p>Information about the Alba Theme</p>
 	</div>',
 				'default_value' => '',
 				'placeholder' => '',
@@ -2392,13 +2392,8 @@ if(function_exists("register_field_group"))
 				'type' => 'number',
 				'instructions' => '<div class="acf-semplice-about">
 	<p>
-	Semplice<br />
+	Alba<br />
 	Version: 1.0.0<br />
-	Support: <a href="http://help.semplicelabs.com" target="_blank">Helpdesk</a><br /><br />
-	For updates please follow<br />
-	<a target="_blank" href="http://www.twitter.com/semplicelabs">twitter.com/semplicelabs</a><br />
-	<a target="_blank" href="http://www.facebook.com/semplicelabs">facebook.com/semplicelabs</a><br /><br />
-	Made in the <a href="http://www.semplicelabs.com" target="_blank">Semplice Labs</a>
 	</p>
 	</div>',
 				'default_value' => '',
@@ -2454,7 +2449,7 @@ if(function_exists("register_field_group"))
 				'type' => 'number',
 				'instructions' => '<div class="acf-semplice-desc">
 	<h1>Advanced Styling</h1>
-	<p>In this section you can customize some advanced settings for semplice.<br />Note: Most changes does not affect the content editor defaults.</p>
+	<p>In this section you can customize some advanced settings for alba.<br />Note: Most changes does not affect the content editor defaults.</p>
 	</div>',
 				'default_value' => '',
 				'placeholder' => '',
@@ -2879,7 +2874,7 @@ if(function_exists("register_field_group"))
 				'type' => 'number',
 				'instructions' => '<div class="acf-semplice-desc">
 	<h1>Basic Styling</h1>
-	<p>Customize the basic styling of semplice<br />Please note that this settings does not affect the content editor defaults.</p>
+	<p>Customize the basic styling of alba<br />Please note that this settings does not affect the content editor defaults.</p>
 	</div>',
 				'default_value' => '',
 				'placeholder' => '',

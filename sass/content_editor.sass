@@ -1,0 +1,120 @@
+// ----------------------------------------------------------------------------------------------------------------
+// workview
+// ----------------------------------------------------------------------------------------------------------------
+
+
+section#page-content
+	padding-top: $defaultLineHeight * 4
+	opacity: 0
+
+#content
+	#content-holder
+		position: relative
+	.no-padding
+		padding-bottom: 0px !important	
+	.content-container, .mc-sub-content-container
+		video, audio
+			max-width: 100%
+		.audio-container
+			height: 30px !important
+		.image, .video, .audio, .column-image
+			line-height: 0px
+			font-size: 0px
+			img
+				height: auto
+				max-width: 100%
+				//dont display the negative margin on smaller resolutions
+				@media (min-width: 978px) and (max-width: 1199px)
+					margin: 0 !important
+					max-width: 100%
+				+respond-to(full-width)
+					width: auto
+				+respond-to(tablet-wide)
+					max-width: 100% !important
+					margin: 0 !important
+				+respond-to(tablet-portrait)
+					width: 100%
+					margin: 0 !important
+				+respond-to(mobile)
+					width: 100%
+					margin: 0 !important
+		.yes, .no-scaling, .has-neg-margin
+			img
+				width: auto !important	
+		.has-neg-margin
+			img
+				max-width: inherit
+				@media (min-width: 978px) and (max-width: 1199px)
+					max-width: 100% !important
+				+respond-to(tablet-wide)
+					max-width: 100% !important
+				+respond-to(tablet-portrait)
+					max-width: 100% !important
+				+respond-to(mobile)
+					max-width: 100% !important
+		.column-image
+			img
+				max-width: 100% !important
+		.full, .column-img-full
+			img
+				width: 100% !important
+				height: auto
+	.hr-full-width
+		width: 100%
+	.image-link
+		img
+			+transition(all, 0.2s, linear)
+		img:hover
+			opacity: .6
+	.cover-video
+		.mejs-container
+			.mejs-controls, .mejs-layers
+				display: none !important
+	
+.share-box
+	opacity: 0
+	padding-top: $defaultLineHeight * 3
+	padding-bottom: $defaultLineHeight * 3
+	+respond-to(tablet-portrait)
+		padding-top: $defaultLineHeight
+	.first
+		margin-left: 0px !important
+	.semplice-share
+		height: 54px
+		overflow: hidden
+		cursor: pointer
+		@include border-box
+		width: 31.33333333333333%
+		margin-left: 3%
+		float: left
+		.text, .button
+			color: #888
+			font-size: 14px
+			+respond-to(tablet-portrait)
+				font-size: 12px
+			text-transform: uppercase
+			text-align: center
+			letter-spacing: 1px
+			height: 54px
+			line-height: 54px
+			border: 1px solid #e6e6e6
+			@include border-box
+			+transition(all, 0.2s, linear)
+			a
+				color: white !important
+				height: 54px
+				display: block !important
+				width: 100%
+		.button-facebook
+			border: 1px solid #3B5998
+			background: #3B5998
+		.button-twitter
+			border: 1px solid #0084B4
+			background: #0084B4
+		.button-gplusone
+			border: 1px solid #d73d32
+			background: #d73d32
+			
+	.semplice-share:hover
+		.text
+			margin-top: -54px

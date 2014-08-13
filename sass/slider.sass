@@ -1,0 +1,63 @@
+.slider-blog
+	margin-bottom: $defaultLineHeight * 2
+.slider-wrapper
+	position: relative
+	overflow: hidden
+	.slider
+		position: relative
+		list-style: none
+		overflow: hidden
+		width: 100%
+		padding: 0
+		margin: 0
+		li
+			-webkit-backface-visibility: hidden
+			position: absolute
+			display: none
+			width: 100%
+			left: 0
+			top: 0
+			img
+				display: block
+				height: auto
+				float: left
+				width: 100% !important
+				border: 0
+		li:first-child
+			position: relative
+			display: block
+			float: left
+	.gallery-preview
+		display: none
+	.prev
+		background-image: url(images/fancy-box/fancy_nav_left.png)
+		background-position: center left
+		background-repeat: no-repeat
+		margin-left: 50px
+		opacity: 0
+	.next
+		background-image: url(images/fancy-box/fancy_nav_right.png)
+		background-position: center right
+		background-repeat: no-repeat
+		margin-right: 50px
+		opacity: 0
+	.prev, .next
+		cursor: pointer
+		display: block
+		height: 5000px
+		//background-color: blue
+		//margin-top: -25px
+		position: absolute
+		top: 50%
+		margin-top: -2500px
+		width: 50%
+		text-indent: -5000px
+		z-index: 1102
+		outline: none
+		
+	.next
+		right: 0
+	.prev:hover, .next:hover
+		opacity: 1
+	
+		

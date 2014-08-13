@@ -1,0 +1,25 @@
+<svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" xml:space="preserve">
+<g>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M12,6.5
+		C12,4.567,17.148,3,23.5,3v16.5C17.148,19.5,12,21.066,12,23c0-1.934-5.149-3.5-11.5-3.5V3C6.851,3,12,4.567,12,6.5z"/>
+	
+		<line fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="12" y1="6.5" x2="12" y2="22.844"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.5,8.74
+		C7.89,8.124,5.613,7.677,3,7.5"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.5,11.74
+		C7.89,11.124,5.613,10.677,3,10.5"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.5,14.74
+		C7.89,14.124,5.613,13.677,3,13.5"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M9.5,17.74
+		C7.89,17.124,5.613,16.677,3,16.5"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.5,8.74
+		c1.611-0.616,3.887-1.063,6.5-1.24"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.5,11.74
+		c1.611-0.616,3.887-1.063,6.5-1.24"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.5,14.74
+		c1.611-0.616,3.887-1.063,6.5-1.24"/>
+	<path fill="none" stroke="#231F20" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="M14.5,17.74
+		c1.611-0.616,3.887-1.063,6.5-1.24"/>
+</g>
+</svg>
